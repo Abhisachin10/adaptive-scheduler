@@ -12,16 +12,16 @@ st.set_page_config(page_title="🤖 AI-Driven Adaptive Scheduling", layout="wide
 st.markdown("""
     <style>
     body {
-        background-color: beige;
-        color: brown;
+        background-color: #FAF6F2;
+        color: #683B2B;
     }
     h1, h2, h3, h4, h5, h6 {
         text-align: center;
-        color: brown;
+        color: #683B2B !important;
     }
     .stButton>button {
-        background-color: brown;
-        color: beige;
+        background-color: #683B2B;
+        color: #FAF6F2;
         border-radius: 12px;
         padding: 0.6em 1.2em;
         border: none;
@@ -29,14 +29,14 @@ st.markdown("""
         transition: 0.3s;
     }
     .stButton>button:hover {
-        background-color: #8B4513;
+        background-color: #4B2C20;
         color: white;
         transform: scale(1.05);
-        box-shadow: 0px 4px 10px rgba(0,0,0,0.3);
+        box-shadow: 0px 4px 12px rgba(0,0,0,0.3);
     }
     .metric-card {
-        background: #fff8dc;
-        color: brown;
+        background: #ffffff;
+        color: #683B2B;
         padding: 15px;
         border-radius: 12px;
         margin: 10px 0;
@@ -46,7 +46,7 @@ st.markdown("""
         transition: 0.3s;
     }
     .metric-card:hover {
-        box-shadow: 0px 4px 16px rgba(0,0,0,0.3);
+        box-shadow: 0px 6px 18px rgba(0,0,0,0.3);
         transform: scale(1.02);
     }
     </style>
